@@ -2,17 +2,17 @@ Imports System
 
 Module Program
     Sub Main(args As String())
-        Dim descripcion As String
+        Dim descripcion As String 'esto es un edit desde github
         Dim unidadesProd As Integer
         Dim costoMateriales As Decimal
         Dim costoFijo As Double
         Dim costoTotal As Double
 
         ' Solicitar datos al usuario
-        Console.WriteLine("Ingrese la descripción del artículo: ")
+        Console.WriteLine("Ingrese la descripciÃ³n del artÃ­culo: ")
         descripcion = Console.ReadLine()
 
-        Console.WriteLine("Ingrese el número de unidades producidas: ")
+        Console.WriteLine("Ingrese el nÃºmero de unidades producidas: ")
         unidadesProd = Convert.ToInt32(Console.ReadLine())
 
         ' Calcular el costo de los materiales
@@ -25,7 +25,7 @@ Module Program
         costoTotal = costoMateriales + costoFijo
 
         ' Imprimir los resultados
-        Console.WriteLine("Descripción: {0}", descripcion)
+        Console.WriteLine("DescripciÃ³n: {0}", descripcion)
         Console.WriteLine("Unidades producidas: {0}", unidadesProd)
         Console.WriteLine("Costo de los materiales: {0}", costoMateriales)
         Console.WriteLine("Costo fijo: {0}", costoFijo)
